@@ -5,3 +5,5 @@ vim.keymap.set("i", "<C-J>", 'copilot#Accept("\\<CR>")', {
   expr = true,
   replace_keycodes = false,
 })
+-- jk to escaped
+vim.keymap.set("i", "jk", "<Esc>", { noremap = true })
