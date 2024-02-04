@@ -6,3 +6,4 @@ vim.g.copilot_no_tab_map = true
 -- Usage analyze for copilot
 vim.g.copilot_proxy = "http://172.16.18.113:8888"
 vim.g.copilot_proxy_strict_ssl = false
+vim.g.autoformat = false
